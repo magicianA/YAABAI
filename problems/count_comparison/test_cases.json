@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Example case - true",
+    "input": "abbccc",
+    "expected": "true"
+  },
+  {
+    "name": "Equal counts - false",
+    "input": "abc",
+    "expected": "false"
+  },
+  {
+    "name": "Wrong order - false",
+    "input": "cccbbbaa",
+    "expected": "false"
+  },
+  {
+    "name": "Empty string - false",
+    "input": "",
+    "expected": "false"
+  },
+  {
+    "name": "Valid progression 1",
+    "input": "abbbcccc",
+    "expected": "true"
+  },
+  {
+    "name": "Only one type - false",
+    "input": "aaa",
+    "expected": "false"
+  }
+]

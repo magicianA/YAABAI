@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Example 1",
+    "input": "1001",
+    "expected": "1010"
+  },
+  {
+    "name": "Example 2",
+    "input": "10",
+    "expected": "11"
+  },
+  {
+    "name": "Single bit",
+    "input": "1",
+    "expected": "10"
+  },
+  {
+    "name": "All ones - carry propagation",
+    "input": "111",
+    "expected": "1000"
+  },
+  {
+    "name": "Mixed pattern",
+    "input": "101",
+    "expected": "110"
+  },
+  {
+    "name": "Ends in zero",
+    "input": "100",
+    "expected": "101"
+  },
+  {
+    "name": "Large number",
+    "input": "11110",
+    "expected": "11111"
+  },
+  {
+    "name": "Max single carry",
+    "input": "1111",
+    "expected": "10000"
+  }
+]

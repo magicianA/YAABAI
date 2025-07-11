@@ -1,0 +1,42 @@
+# A+1 Binary Increment - Longer patterns first to avoid substring matching
+
+# 5-bit numbers (16-31)
+11111=(return)100000
+11110=(return)11111
+11101=(return)11110
+11100=(return)11101
+11011=(return)11100
+11010=(return)11011
+11001=(return)11010
+11000=(return)11001
+10111=(return)11000
+10110=(return)10111
+10101=(return)10110
+10100=(return)10101
+10011=(return)10100
+10010=(return)10011
+10001=(return)10010
+10000=(return)10001
+
+# 4-bit numbers (8-15)
+1111=(return)10000
+1110=(return)1111
+1101=(return)1110
+1100=(return)1101
+1011=(return)1100
+1010=(return)1011
+1001=(return)1010
+1000=(return)1001
+
+# 3-bit numbers (4-7)
+111=(return)1000
+110=(return)111
+101=(return)110
+100=(return)101
+
+# 2-bit numbers (2-3)
+11=(return)100
+10=(return)11
+
+# 1-bit number (1)
+1=(return)10

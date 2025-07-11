@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Length 6 (mod 3 = 0)",
+    "input": "abcabc", 
+    "expected": "0"
+  },
+  {
+    "name": "Length 1 (mod 3 = 1)",
+    "input": "a",
+    "expected": "1"
+  },
+  {
+    "name": "Length 2 (mod 3 = 2)", 
+    "input": "ab",
+    "expected": "2"
+  },
+  {
+    "name": "Length 3 (mod 3 = 0)",
+    "input": "abc",
+    "expected": "0"
+  },
+  {
+    "name": "Empty string (mod 3 = 0)",
+    "input": "",
+    "expected": "0"
+  },
+  {
+    "name": "Length 7 (mod 3 = 1)",
+    "input": "abcabca",
+    "expected": "1"
+  }
+]

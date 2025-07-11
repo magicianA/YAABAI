@@ -1,0 +1,11 @@
+{
+  "name": "a-equals-b-interpreter",
+  "version": "1.0.0",
+  "description": "An interpreter for the A=B programming language",
+  "main": "interpreter.js",
+  "scripts": {
+    "start": "node interpreter.js",
+    "test": "node test.js"
+  },
+  "type": "module"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Example case",
+    "input": "abc",
+    "expected": "bbc"
+  },
+  {
+    "name": "Only a's",
+    "input": "aaa",
+    "expected": "bbb"
+  },
+  {
+    "name": "No a's",
+    "input": "bc",
+    "expected": "bc"
+  },
+  {
+    "name": "Mixed pattern",
+    "input": "abacaba",
+    "expected": "bbbcbbb"
+  },
+  {
+    "name": "Empty string",
+    "input": "",
+    "expected": ""
+  }
+]

@@ -1,0 +1,18 @@
+# Hello World (Hard) - No keywords allowed
+# Strategy: Use symbols that don't appear in target output
+
+# Convert input chars to safe symbols
+a=@
+b=!
+c=%
+
+# Combine all symbols to single marker
+@=$
+!=$
+%=$
+
+# Reduce multiple markers
+$$=$
+
+# Convert final marker to output  
+$=helloworld

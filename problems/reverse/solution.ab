@@ -1,0 +1,9 @@
+# Classic A=B reverse solution
+(once)=(start)*
+*a=a*
+*b=b*
+*c=c*
+a*(end)=*a
+b*(end)=*b
+c*(end)=*c
+*=

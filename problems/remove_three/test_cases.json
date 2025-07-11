@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Example case",
+    "input": "aaabbcccaa",
+    "expected": "bbcccaa"
+  },
+  {
+    "name": "Exactly 3 characters",
+    "input": "abc",
+    "expected": ""
+  },
+  {
+    "name": "Less than 3 characters",
+    "input": "ab",
+    "expected": ""
+  },
+  {
+    "name": "Single character",
+    "input": "a",
+    "expected": ""
+  },
+  {
+    "name": "Empty string",
+    "input": "",
+    "expected": ""
+  },
+  {
+    "name": "All same character",
+    "input": "aaaaaaa",
+    "expected": "aaaa"
+  },
+  {
+    "name": "Different first 3",
+    "input": "abcdef",
+    "expected": "def"
+  },
+  {
+    "name": "Mixed pattern",
+    "input": "cbabca",
+    "expected": "bca"
+  },
+  {
+    "name": "Long string",
+    "input": "abcabcabcabcabc",
+    "expected": "abcabcabcabc"
+  },
+  {
+    "name": "Reverse order start",
+    "input": "cbaaaaabbbb",
+    "expected": "aaaabbbb"
+  }
+]

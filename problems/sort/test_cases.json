@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Example case",
+    "input": "aaabbcccaa",
+    "expected": "aaaaabbccc"
+  },
+  {
+    "name": "Already sorted",
+    "input": "aabbcc",
+    "expected": "aabbcc"
+  },
+  {
+    "name": "Reverse sorted",
+    "input": "ccbbaa",
+    "expected": "aabbcc"
+  },
+  {
+    "name": "Single character",
+    "input": "a",
+    "expected": "a"
+  },
+  {
+    "name": "Empty string",
+    "input": "",
+    "expected": ""
+  },
+  {
+    "name": "Two characters sorted",
+    "input": "ab",
+    "expected": "ab"
+  },
+  {
+    "name": "Two characters unsorted",
+    "input": "ba",
+    "expected": "ab"
+  },
+  {
+    "name": "Three distinct chars",
+    "input": "cba",
+    "expected": "abc"
+  },
+  {
+    "name": "Random order",
+    "input": "bcacba",
+    "expected": "aabbcc"
+  },
+  {
+    "name": "All same character",
+    "input": "aaaaaaa",
+    "expected": "aaaaaaa"
+  },
+  {
+    "name": "Complex pattern",
+    "input": "cbacbacbacba",
+    "expected": "aaaabbbbcccc"
+  },
+  {
+    "name": "Mixed lengths",
+    "input": "ccbbbaaaa",
+    "expected": "aaaabbbcc"
+  }
+]

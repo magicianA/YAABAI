@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Example case",
+    "input": "aaabbcccaa",
+    "expected": "helloworld"
+  },
+  {
+    "name": "Empty string",
+    "input": "",
+    "expected": "helloworld"
+  },
+  {
+    "name": "Single character",
+    "input": "a",
+    "expected": "helloworld"
+  },
+  {
+    "name": "All a's",
+    "input": "aaaaaaa",
+    "expected": "helloworld"
+  },
+  {
+    "name": "All b's",
+    "input": "bbbbb",
+    "expected": "helloworld"
+  },
+  {
+    "name": "All c's", 
+    "input": "cccccc",
+    "expected": "helloworld"
+  },
+  {
+    "name": "Mixed order",
+    "input": "cbacbacba",
+    "expected": "helloworld"
+  },
+  {
+    "name": "Long string",
+    "input": "abcabcabcabcabcabcabcabc",
+    "expected": "helloworld"
+  }
+]

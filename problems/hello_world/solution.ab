@@ -1,0 +1,2 @@
+# Hello World - replace any input with "helloworld"
+=(return)helloworld

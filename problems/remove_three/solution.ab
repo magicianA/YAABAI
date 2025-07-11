@@ -1,0 +1,19 @@
+# Remove exactly 3 characters from start
+(once)=(start)...|
+
+# Remove one char at a time with counter
+...|a=..|
+...|b=..|
+...|c=..|
+..|a=.|
+..|b=.|
+..|c=.|
+.|a=|
+.|b=|
+.|c=|
+
+# Clean up all remaining dots and pipe
+(start)|=
+(start).=
+(start)..=
+(start)...=

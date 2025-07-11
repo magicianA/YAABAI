@@ -1,0 +1,4 @@
+# Sort by bubble sort approach - swap out-of-order pairs
+ba=ab
+ca=ac  
+cb=bc

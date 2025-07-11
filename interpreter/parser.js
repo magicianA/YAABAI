@@ -136,30 +136,30 @@ export class Parser {
       
       // Specific rules for each keyword based on side
       if (side === 'left side') {
-        if (kw.keyword === 'end' && atEnd) {
-          throw new Error(`(end) keyword cannot be at the end of left side - only at the beginning`);
+        if (kw.keyword === 'end' && !atStart) {
+          throw new Error(`(end) keyword can only be at the beginning of left side`);
         }
-        if (kw.keyword === 'start' && atEnd) {
-          throw new Error(`(start) keyword cannot be at the end of left side - only at the beginning`);
+        if (kw.keyword === 'start' && !atStart) {
+          throw new Error(`(start) keyword can only be at the beginning of left side`);
         }
-        if (kw.keyword === 'once' && atEnd) {
-          throw new Error(`(once) keyword cannot be at the end of left side - only at the beginning`);
+        if (kw.keyword === 'once' && !atStart) {
+          throw new Error(`(once) keyword can only be at the beginning of left side`);
         }
         if (kw.keyword === 'return') {
           throw new Error(`(return) keyword cannot be used on left side`);
         }
       } else if (side === 'right side') {
-        if (kw.keyword === 'end' && atEnd) {
-          throw new Error(`(end) keyword cannot be at the end of right side - only at the beginning`);
+        if (kw.keyword === 'end' && !atStart) {
+          throw new Error(`(end) keyword can only be at the beginning of right side`);
         }
-        if (kw.keyword === 'start' && atEnd) {
-          throw new Error(`(start) keyword cannot be at the end of right side - only at the beginning`);
+        if (kw.keyword === 'start' && !atStart) {
+          throw new Error(`(start) keyword can only be at the beginning of right side`);
         }
         if (kw.keyword === 'once') {
           throw new Error(`(once) keyword cannot be used on right side`);
         }
-        if (kw.keyword === 'return' && atEnd) {
-          throw new Error(`(return) keyword cannot be at the end of right side - only at the beginning`);
+        if (kw.keyword === 'return' && !atStart) {
+          throw new Error(`(return) keyword can only be at the beginning of right side`);
         }
       }
     }
